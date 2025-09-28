@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Mini Portfolio</title>
+<style> body {background-color: rgb(97, 24, 24);}</style>
+</head>
+<body align="center">
+    <style> body {color: pink;}</style>
+
+ <section>
+    <h1>My Skills Progress</h1>   
+    <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" fill="pink" />
+   </svg>
+
+    <p>HTML Learining Progress:</p>
+    <progress value="20" max="100"></progress>
+    <p>CSS Learning Progress</p>
+    <progress value="5" max="100"></progress>
+    <p>JavaScript Learning Progress</p>
+    <progress value="20" max="100"></progress>
+    
+</section>
+<br />
+<section>
+    <label for="tools"> Favorite Web Tool:</label>
+    <input id="tools" type="text" list="webtools" placeholder="Choose or type a tool">
+    <datalist id="webtools">
+        <option value="Visual Studio Code"></option>
+        <option value="Sublime Text"></option>
+        <option value="Figma"></option>
+        <option value="Github"></option>    
+    </datalist>
+</section>
+
+<section>
+    <h2>Contact me!</h2>
+    <form autocomplete="off">
+        <label for="name"> Full name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus>
+        
+    <pre></pre>
+        
+        <label for="email"> Email Address:</label>
+        <input type="email" id="email" placeholder="example@example.com" required>
+    
+    <pre></pre>
+         
+        <label for="url"> Portfolio Website:</label>
+        <input type="url" id="url" placeholder="https://example.com">
+
+    <pre></pre>
+
+        <label for="tel"> Phone Number:</label>
+        <input type="tel" id="tel" placeholder="0000-000-0000">
+
+    <pre></pre>
+
+        <label for="message"> Message:</label>
+        <textarea id="message" name="message" placeholder="Write something..." required></textarea>
+
+        <input type="submit" value="Send">
+
+    </form>
+</section>
+</body>
+
+</html>
